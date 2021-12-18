@@ -39,7 +39,7 @@ const index = ({ modalVisible, setModalVisible, character}) => {
                 padding: 5,
                 marginVertical: 5,
                 borderRadius: 5,
-                width: '40%',
+                width: '25%',
                 alignSelf: 'center',
                 margin: 5,
                 }}
@@ -48,7 +48,7 @@ const index = ({ modalVisible, setModalVisible, character}) => {
                   setModalVisible(false)
                   setExiste([...existe, character.id])}}>
                     <Text style={{fontSize: 20, paddingHorizontal: 5, justifyContent: 'center', alignSelf: "center"}}>
-                        Sí, agregar
+                        Sí
                     </Text>
                 </TouchableOpacity>
 
@@ -57,13 +57,13 @@ const index = ({ modalVisible, setModalVisible, character}) => {
                 padding: 5,
                 marginVertical: 5,
                 borderRadius: 5,
-                width: '40%',
+                width: '25%',
                 alignSelf: 'center',
                 margin: 5
                 }}
                 onPress={() => setModalVisible(false)}>
                     <Text style={{fontSize: 20, paddingHorizontal: 5, justifyContent: 'center', alignSelf: "center"}}>
-                        No por ahora
+                        No
                     </Text>
                 </TouchableOpacity>
             </View>
